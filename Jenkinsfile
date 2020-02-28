@@ -17,8 +17,8 @@ pipeline
             steps
             {
                 echo "This is python script execution step"
-                sh 'python --version'
-                sh "python Dict.py"
+                //sh 'python --version'
+               // sh "python Dict.py"
             }
         }
         
